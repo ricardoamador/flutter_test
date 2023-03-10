@@ -1,6 +1,8 @@
 # flutter_application
 
 A new Flutter project.
+Playground for testing changes.
+Don't worry about the condition of this project as it is for testing.
 
 ## Getting Started
 
