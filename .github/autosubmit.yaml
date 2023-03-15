@@ -1,0 +1,15 @@
+default_branch: main
+issues_repository:
+  owner: ricardoamador
+  repo: flutter_test
+auto_approval_accounts:
+    - dependabot[bot]
+    - dependabot
+    - DartDevtoolWorkflowBot
+approving_reviews: 2
+Approval_group: flutter-hackers
+run_ci: false
+support_no_review_revert: true
+required_checkruns:
+    - “ci.yaml validation”
+
