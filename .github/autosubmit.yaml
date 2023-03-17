@@ -8,6 +8,8 @@ issues_repository:
 
 # The accounts that will have their changes auto-approved when opening a pull request.
 auto_approval_accounts:
+    - skia-flutter-autoroll,
+    - engine-flutter-autoroll,
     - dependabot[bot]
     - dependabot
     - DartDevtoolWorkflowBot
