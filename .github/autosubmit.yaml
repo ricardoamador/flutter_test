@@ -13,16 +13,16 @@ auto_approval_accounts:
     - DartDevtoolWorkflowBot
 
 # The number of approvals needed in order to merge a feature in the default branch.
-approving_reviews: 2
+approving_reviews: 1
 
 # The group which will need to provide the reviews, currently OWNER and MEMBER in github.
-Approval_group: flutter-hackers
+approval_group: flutter-hackers
 
 # Whether or not to run ci checks for each pull request.
 run_ci: false
 
 # Whether to allow revert pull requests to be merged without an approving review.
-support_no_review_revert: true
+support_no_review_revert: false
 
 # The required check runs that must complete before a pull request is merged.
 required_checkruns:
